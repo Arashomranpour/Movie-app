@@ -135,15 +135,7 @@ export default function TransitionsModal({ children, media_type, id }) {
                     <Carousel id={id} media_type={media_type} />
                   </div>
 
-                  <Button
-                    variant="contained"
-                    startIcon={<YouTubeIcon />}
-                    color="secondary"
-                    target="__blank"
-                    href={`https://www.youtube.com/watch?v=${video}`}
-                  >
-                    Watch the Trailer
-                  </Button>
+              
                 </div>
               </div>
             </div>
